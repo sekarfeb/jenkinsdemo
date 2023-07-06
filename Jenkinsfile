@@ -7,7 +7,7 @@ pipeline {
                 checkout scm
             }
         }
-        x
+        
         stage('Build0') {
             steps {
                 echo "sekar"
